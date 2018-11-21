@@ -16,7 +16,7 @@ public class IntroToRandom {
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
-		Random Bob = new Random(101);
+		Random Bob = new Random();
 		r = Bob.nextInt(101);
 
 		//4. Limit the random number between 0 and 100
